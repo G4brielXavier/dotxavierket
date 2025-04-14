@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+html, body {
+    overflow-x: hidden !important;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color-main: #0e0e0e;
+    --background-color-secondary: #0c0c0c;
+
+    --color-text: #EAEAEA;
+    --color-titles: #FFF;
+
+    --color-main: #0052968e;
+
+    --font-main: 'Quicksand', sans-serif;
+    --font-second: 'Geist', sans-serif;
+}
+
+body {
+    background-color: var(--background-color-main);
+    color: var(--color-text);
+
+    font-family: var(--font-main);
+}

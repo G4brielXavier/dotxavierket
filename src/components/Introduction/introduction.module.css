@@ -1,0 +1,60 @@
+.GlobalIntroduction {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+
+    margin: 14% auto;
+    width: 90%;
+
+    border-left: 2px solid var(--color-main);
+    padding-left: 40px;
+}
+
+
+.GlobalIntroduction h1 {
+    font-size: 40px;
+    font-family: var(--font-main);
+    color: var(--color-main);
+    font-weight: 500;
+}
+
+.GlobalIntroduction h4 {
+    opacity: 0.5;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.GlobalIntroduction p {
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 25px;
+    width: 85%;
+}
+
+@media (max-width: 1000px)
+{
+    .GlobalIntroduction::after {
+        display: none;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .GlobalIntroduction {
+        margin: 35% auto;
+    }
+    
+    .GlobalIntroduction h1 {
+        font-size: 30px;
+    }
+
+    .GlobalIntroduction h4 {
+        font-size: 18px;
+    }
+
+    .GlobalIntroduction p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}

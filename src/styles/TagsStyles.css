@@ -1,0 +1,41 @@
+#universe {
+    background-image: linear-gradient(to bottom, rgb(168, 1, 160), rgb(94, 0, 153), rgb(18, 0, 182), rgb(0, 4, 212));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0 3px;
+
+    background-size: 300% 300%;
+    animation: animGradient 4s ease-in-out infinite;
+}
+
+#fullstack {
+    background-image: linear-gradient(to left, rgb(132, 132, 255), rgb(200, 200, 255));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0 3px;
+
+    background-size: 300% 300%;
+    animation: animGradient 2s ease-in-out infinite;
+}
+
+#btn {
+    background-image: linear-gradient(to left, rgb(132, 132, 255), rgb(200, 200, 255));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0 3px; 
+
+    transition: 0.2s;
+}
+
+
+@keyframes animGradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
