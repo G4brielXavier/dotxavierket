@@ -11,6 +11,8 @@
     border-top: 2px solid var(--color-main);
 
     margin-top: 0px;
+
+    transition: 0.2s;
 }
 
 .blockOne {

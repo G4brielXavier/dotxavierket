@@ -8,10 +8,14 @@
     width: 90%;
 
     border-left: 2px solid var(--color-main);
-    padding-left: 2000px;
+    padding-left: 40px;
+
+    filter: blur(40px);
 
     animation: initialIntro 1s ease forwards;
     animation-delay: 1s;
+
+    transition: 0.2s;
 }
 
 
@@ -20,6 +24,7 @@
     font-family: var(--font-main);
     color: var(--color-main);
     font-weight: 500;
+    transition: 0.2s;
 }
 
 .GlobalIntroduction h4 {
@@ -75,9 +80,9 @@
 
 @keyframes initialIntro {
     from {
-        padding-left: 2000px;
+        filter: blur(20px);
     }
     to {
-        padding-left: 40px;
+        filter: blur(0px);
     }
 }
