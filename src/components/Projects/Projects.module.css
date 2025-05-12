@@ -17,16 +17,19 @@
 }
 
 .GlobalProjects header p {
-    opacity: 0.3;
-    font-size: 20px;
+    color: var(--color-text);
+    font-size: 19px;
     font-weight: 200;
+    opacity: 0.5;
 
-    width: 70%;
+    width: 80%;
 }
 
 .GlobalProjects header h1 {
-    font-size: 40px;
+    color: var(--color-main);
+    font-size: 50px;
     font-weight: 300;
+
     width: 30%;
 }
 

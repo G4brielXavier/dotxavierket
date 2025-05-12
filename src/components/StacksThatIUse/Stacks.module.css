@@ -46,3 +46,10 @@
     filter: contrast(0);
     transition: 0.2s;
 }
+
+
+@media (max-width: 500px) {
+    .GlobalStacks h1 {
+        font-size: 30px;
+    }
+}

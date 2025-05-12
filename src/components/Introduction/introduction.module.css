@@ -8,7 +8,10 @@
     width: 90%;
 
     border-left: 2px solid var(--color-main);
-    padding-left: 40px;
+    padding-left: 2000px;
+
+    animation: initialIntro 1s ease forwards;
+    animation-delay: 1s;
 }
 
 
@@ -20,16 +23,26 @@
 }
 
 .GlobalIntroduction h4 {
-    opacity: 0.5;
     font-size: 25px;
     font-weight: 300;
 }
 
 .GlobalIntroduction p {
-    opacity: 0.5;
+    color: var(--color-text);
     font-size: 15px;
     line-height: 25px;
     width: 85%;
+}
+
+.GlobalIntroduction p b {
+    color: var(--color-main);
+    filter: brightness(0.8);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.GlobalIntroduction p b:hover {
+    filter: brightness(1);
 }
 
 @media (max-width: 1000px)
@@ -56,5 +69,15 @@
     .GlobalIntroduction p {
         font-size: 13px;
         line-height: 20px;
+    }
+}
+
+
+@keyframes initialIntro {
+    from {
+        padding-left: 2000px;
+    }
+    to {
+        padding-left: 40px;
     }
 }

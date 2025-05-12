@@ -1,4 +1,3 @@
-
 import { useNavigate } from 'react-router-dom'
 
 import styles from './Footer.module.css'
@@ -23,8 +22,6 @@ export default function Footer()
                 </div>
             </div>
             <div className={styles.GridLinks}>
-                <p onClick={() => handleNavigate('/arts')}>Arts</p>
-                <p onClick={() => handleNavigate('/blogs')}>Blogs</p>
                 <p onClick={() => handleNavigate('/thepaths')}>The Path's</p>
                 <p onClick={() => handleNavigate('/projects')}>Projects</p>
             </div>

@@ -12,7 +12,7 @@ export default function Projects() {
         <div className={styles.GlobalProjects}>
             <header>
                 <p>Some of the my best projects to show. If you don't like them, let's start your best idea.</p>
-                <h1>My best projects</h1>
+                <h1>My Projects</h1>
             </header>
             <section>
                 {ProjectsData.map(item => (

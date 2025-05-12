@@ -13,8 +13,8 @@ export default function Introduction() {
     return (
         <div className={styles.GlobalIntroduction}>
             <h1>Welcome to my portfolio</h1>
-            <h4>A FullStack Developer, Artist and "The Path's" Creator</h4>
-            <p>Hello, my name is Gabriel Xavier, I'm {myAge} years old, I'm a <b>Fullstack Developer</b> looking for a first job or <b>freelancer</b>. I have {myExperience} years of experience studying the area with {myExperience*0.6} years of <b>Front-end</b>. {myExperience*0.2} year of <b>Algorithm</b>, and {myExperience*0.2} year of Back-end.</p>
+            <h4>A <em>FullStack Developer</em>, <em>Artist</em> and <em>"The Path's" Creator</em></h4>
+            <p>Hello, my name is Gabriel Xavier, I'm {myAge} years old, I'm a <b>Fullstack Developer</b> looking for a <b>first job</b> or <b>freelancer</b>. I have {myExperience} years of experience studying the area with {myExperience*0.6} years of <b>Front-end</b>. {myExperience*0.2} year of <b>Algorithm</b>, and {myExperience*0.2} year of <b>Back-end</b>.</p>
         </div>
     )
 }
