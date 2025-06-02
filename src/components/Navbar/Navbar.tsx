@@ -99,6 +99,9 @@ export default function Navbar() {
                 <div className={styles.blockTheme} id='green' onClick={() => handleTheme('--color-main', 'rgb(21, 197, 50)')}>-</div>
                 <div className={styles.blockTheme} id='yellow' onClick={() => handleTheme('--color-main', 'rgb(203, 216, 20)')}>-</div>
                 <div className={styles.blockTheme} id='orange' onClick={() => handleTheme('--color-main', 'rgb(216, 76, 20)')}>-</div>
+                <div className={styles.blockTheme} id='purple' onClick={() => handleTheme('--color-main', 'rgb(131, 20, 216)')}>-</div>
+                <div className={styles.blockTheme} id='pink' onClick={() => handleTheme('--color-main', 'rgb(216, 20, 180)')}>-</div>
+                <div className={styles.blockTheme} id='indigo' onClick={() => handleTheme('--color-main', 'rgb(20, 36, 216)')}>-</div>
             </div>
         </div>
 

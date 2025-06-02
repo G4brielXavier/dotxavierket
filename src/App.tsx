@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer/Footer'
 
-// home_components
-import Introduction from './components/Introduction'
-import Projects from './components/Projects'
-import Stacks from './components/StacksThatIUse'
+// pages_components
+import Home from '@pages/Home'
+import Projects from '@pages/Projects'
+import About from '@pages/About'
 
 import '@styles/index.css'
 
@@ -22,13 +22,9 @@ export default function App() {
 
           <Routes>
 
-            <Route path='/' element={
-              <>
-                <Introduction />  
-                <Projects />
-                <Stacks />
-              </>
-            }/>
+            <Route path='/' element={<Home />}/>
+            <Route path='/projects' element={<Projects />}/>
+            <Route path='/about' element={<About />}/>
 
           </Routes>
 

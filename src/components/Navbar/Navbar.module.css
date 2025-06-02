@@ -111,7 +111,7 @@
 
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: space-around;
 
     transform: translateX(100%);
@@ -129,7 +129,7 @@
 
 .LinksPrism {
     position: relative;
-    padding-left: 30px;
+    padding-left: 0px;
 
     display: flex;
     flex-direction: column;
@@ -141,7 +141,7 @@
     position: relative;
     opacity: 0.8;
 
-    width: 90%;
+    width: 350px;
     height: 30px;
 
     transition: 0.2s;
@@ -168,6 +168,8 @@
     justify-content: center;
 
     padding: 10px;
+
+    cursor: pointer;
 }
 
 .SocialMediasGrid img {
@@ -177,6 +179,7 @@
 
 .SocialMediasGrid img:hover {
     opacity: 0.5;
+    transform: scale(1.2);
 }
 
 
@@ -196,6 +199,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
     gap: 10px;
 }
 
@@ -206,6 +211,7 @@
     height: 40px;
     color: transparent;
     transition: 0.2s;
+    cursor: pointer;
 }
 
 .blockTheme:hover {

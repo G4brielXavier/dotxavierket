@@ -1,17 +1,22 @@
 // CSS
 import styles from './Projects.module.css'
 
-import ProjectsData from './ProjectsData'
+import ProjectsData from '../../datas/ProjectsData'
 import CardProject from '../CardProject'
 
 
 
+import { useNavigate } from 'react-router-dom'
+
+
 export default function Projects() {
+
+    const navigate = useNavigate()
 
     return (
         <div className={styles.GlobalProjects}>
             <header>
-                <p>Some of the my best projects to show. If you don't like them, let's start your best idea.</p>
+                <p>Check out some of my best work. Got a better idea? Let’s build it together. <a onClick={() => navigate('/projects')}>View more</a></p>
                 <h1>My Projects</h1>
             </header>
             <section>
@@ -20,7 +25,7 @@ export default function Projects() {
                         title={item.name}
                         desc={item.desc}
                         image={item.image}
-                        link={item.github}
+                        link={item.link}
                         out={true}
                     />
                 ))}

@@ -7,7 +7,7 @@ export default function Introduction() {
     const currentYear: number = date.getFullYear()
     const currentMonth: number = date.getMonth()
 
-    const myAge: number = currentYear - 2006 - (currentMonth < 5 ? 1 : 0)
+    const myAge: number = currentYear - 2006 - (currentMonth >= 4 ? 0 : 1)
     const myExperience: number = currentYear - 2020
 
     return (
